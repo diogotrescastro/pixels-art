@@ -5,6 +5,10 @@
   display: table-cell;
 }
 
+.selected {
+  border: solid gray 5px;
+}
+
 .pixel {
   height: 40px;
   width: 40px;
@@ -56,6 +60,12 @@ button {
   text-align: center;
   margin: auto;
 }
+
+button:focus {
+  outline: thin dotted;
+     outline: 0px auto -webkit-focus-ring-color;
+     outline-offset: 0px;
+ }
 
 #color-palette {
   margin-top: 15px;
