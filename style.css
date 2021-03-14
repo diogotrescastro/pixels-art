@@ -67,11 +67,12 @@ margin: 0;
 padding: 0;
 width: 100vw;
 height: 100vh;
-background: #75b7ff;
+background: url(images/backgrounbottom.svg) no-repeat bottom, url(images/backgroundtop.svg) no-repeat top, linear-gradient(#2280E2, #5bd0ed);
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center
+
 }
 
 #container {
